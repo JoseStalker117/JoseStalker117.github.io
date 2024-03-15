@@ -1,0 +1,112 @@
+/* Estilos principales*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+:root{
+    --body-color: #eff0f1;
+    --sidebar-color: #fff;
+    --primary-color: #232424;
+    --primary-color-light: #f0f0f1;
+    --toggle-color: #b4adad;
+    --text-color: #444343;
+
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.1s ease;
+}
+
+/* Estilos de Encabezado */
+.header{
+    margin: 0;
+    display: flex; justify-content: center; align-content: center;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    height: auto;
+    font-size:2em;
+    font-weight:bold;
+    color: var(--text-color);
+}
+
+/* Estilos de la vista */
+.vistaMenu{
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.table{
+    padding: 20px;
+    width: 100%;
+    table-layout: fixed;
+    color: var(--text-color);
+}
+
+#comprar{
+    background-color: rgb(232, 227, 227);
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+}
+#comprar:hover{
+    background-color: orange;
+
+}
+.formPedir{
+    overflow: hidden;
+    display: flex; justify-content: center; align-content: center;
+}
+
+#formulario{
+    padding: 50px;
+    box-shadow: 6px 16px 12px 12px rgb(230, 222, 222);
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+}
+
+#pedir{
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    cursor: pointer;    
+    transition: all 300 ease;
+
+}
+#pedir:hover{
+    background-color: orange;
+}
+
+.mostrarPedidos{
+    width: 400px;
+    margin: -10px;
+    display: grid; 
+    padding: 20px;
+}
+
+#mostrar{
+padding: 15px;
+border-style: none;
+cursor: pointer;
+margin: 20px;
+transition: all 300 ease;
+}
+
+#mostrar:hover{
+    background-color: orange;
+}
+.pedidosRealizados{
+    display: flex; justify-content: center; align-content: center;
+    height: 200px;
+    background-color: #ffcc80;
+}
+
+.t2{
+    background-color: #ffcc80;
+}

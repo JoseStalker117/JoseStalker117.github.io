@@ -1,0 +1,65 @@
+.header {
+  background-color: #ffcc80;
+  display: flex;
+  width: 100%;
+  align-content: center;
+  justify-content: center; 
+  overflow: hidden;
+  height: 150px;
+}
+h1 {
+  display: flex; justify-content: center; align-items: center;
+  overflow: hidden; margin-left: 10px;
+}
+
+.pedidos{
+  overflow: hidden; 
+  padding: 20px;
+}
+
+#container {
+  overflow: hidden; 
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr));
+  grid-gap: 1rem;
+}
+
+.pedido {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; 
+}
+
+.pedido:hover {
+  transform: translateY(-15px); 
+}
+
+.pedido p {
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 10px; 
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.button.cancel {
+  background-color: #f44336;
+}
+
+.button:hover {
+  background-color: orange; 
+}

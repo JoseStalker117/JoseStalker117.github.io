@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correpedidos</title>
+    <!-- ICONOS Y FOTO DE NAVEGACION -->
+    <link rel="website Icon" type="png" href="../logoT.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+
+    <!-- ESTILOS-->
+    <link rel="stylesheet" href="../sidebar/sidebar.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../ADM/css/pedidos.css">
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+            <span class="image"><img src="../logoT.png" alt=""></span> 
+                <div class="text logo-text">
+                    <span class="name">Correpedidos</span> 
+                    <span class="profession">PrimillosCompany</span> 
+                </div>
+            </div>
+            <i class="bx bx-chevron-right toggle"></i> 
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <ul class="menu-links">
+                    
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="text nav-text">Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav link">
+                        <a href="pedidosRealizados.html">
+                            <i class="bx bx-cart icon"></i>
+                            <span class="text nav-text">Pedidos</span>
+                        </a>
+                    </li>
+
+                    <li class="nav link">
+                        <a href="#">
+                            <i class="bx bx-gift icon"></i>
+                            <span class="text nav-text">Promociones</span>
+                        </a>
+                    </li>
+
+                    <li class="nav link">
+                        <a href="sobre-nosotros.html">
+                            <i class="bx bxs-group icon"></i>
+                            <span class="text nav-text">Sobre-Nosotros</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- menu la parte de abajo -->
+            <div class="bottom-content">
+                <li class="">
+                    <a href="login.html">
+                        <i class="bx bx-log-out icon"></i>
+                        <span class="text nav-text">Cerrar Sesion</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Contenido Principal -->
+    <section class="home">
+    <h2 class="t2" style="text-align: center; color: rgb(251, 239, 239);">Ingresa tu matricula para ver lo pedidos que has Realizado...</h2>
+    <section class="pedidosRealizados">
+        <img src="../logoT.png" alt="">
+        <Section class="mostrarPedidos" style="padding: 50px;">
+        <label for="Matricula">Ingrese Matricula:</label>
+        <input type="number" name="Matricula" id="Matricula">
+        <button type="button" id="mostrar" onclick="mostrar()">Mostar</button>
+        </Section>
+    </section>
+        <section class="pedidos">
+            <div class="container">
+                <div id="container" class="card"></div>
+            </div>
+        </section>
+    <!-- section FINAL DEL CONTENIDO-->
+    </section>
+
+
+    <!-- FIRESTORE -->
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
+
+    <!-- Firebase Realtime Database 
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-database-compat.js"></script>
+    -->
+    <!-- SCRIPT -->
+    <script src="js/pedidosRealizados.js"></script>
+    <script src="../sidebar/sidebar.js"></script>
+</body>
+</html>

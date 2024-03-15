@@ -1,0 +1,40 @@
+.header{
+    background-color: #ffcc80;
+    width: 100%;
+    height: 100px;
+}
+.contenidoHeader{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.sobreNosotros{
+    overflow: hidden;
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    word-wrap:break-word;
+}
+
+p{
+    text-align: justify;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 20px;
+    height: 20px;
+    height: auto;
+    background-color: burlywood;
+}
+
+footer > .logo > img{
+    width: 120px;
+}

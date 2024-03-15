@@ -1,0 +1,78 @@
+:root{
+    --body-color: #eff0f1;
+    --sidebar-color: #fff;
+    --primary-color: #232424;
+    --primary-color-light: #f0f0f1;
+    --toggle-color: #b4adad;
+    --text-color: #444343;
+
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.1s ease;
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+#form-Reg, #form-editar{
+    padding: 20px;
+    color: var(--text-color);
+}
+
+input{
+    padding: 15px;
+    width: 100%;
+    margin: 10px;
+}
+
+#form-Reg > button, #form-editar > button{
+    margin: 5px;
+}
+
+.table{
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    table-layout: fixed;
+    color: var(--text-color);
+}
+
+tr{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    border-style: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: gainsboro ;
+}
+
+button:hover{
+    transition: all 300ms ease; 
+    color: white;
+}
+
+#Registrar {padding: 20px;}
+#Registrar:hover {background-color: orange;}
+
+#cancelarReg:hover, #cancelar:hover, #eliminar:hover {
+    background-color: red;
+}
+#actualizar:hover, .estado:hover {
+    background-color: blue;
+}
+
+#boton:hover, #editar:hover {    
+    background-color:forestgreen;
+}
+
